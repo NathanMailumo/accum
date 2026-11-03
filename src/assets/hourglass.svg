@@ -1,0 +1,19 @@
+<svg width="560" height="680" viewBox="0 0 560 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glass" x1="280" y1="0" x2="280" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F4F4" stop-opacity=".85"/>
+      <stop offset=".5" stop-color="#777777" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#F4F4F4" stop-opacity=".72"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="280" y1="0" x2="280" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9D9D9"/>
+      <stop offset="1" stop-color="#555555"/>
+    </linearGradient>
+  </defs>
+  <path d="M92 25H468M92 655H468" stroke="#E8E8E8" stroke-width="14" stroke-linecap="round"/>
+  <path d="M125 34C125 177 218 222 280 317C218 412 125 503 125 646M435 34C435 177 342 222 280 317C342 412 435 503 435 646" stroke="#D8D8D8" stroke-width="9" stroke-linecap="round"/>
+  <path d="M143 45C153 158 224 220 280 308C336 220 407 158 417 45H143Z" fill="url(#sand)" opacity=".85"/>
+  <path d="M143 635C164 537 229 450 280 337C331 450 396 537 417 635H143Z" fill="url(#sand)" opacity=".85"/>
+  <path d="M280 310V474" stroke="#F4F4F4" stroke-width="6" stroke-linecap="round"/>
+  <path d="M195 655H365" stroke="#F4F4F4" stroke-width="5" stroke-linecap="round"/>
+</svg>
