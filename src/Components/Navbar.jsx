@@ -3,7 +3,7 @@ import "../index.css";
 
 export function Navbar() {
   return (
-    <div className="flex justify-center bg-[#0b0b0b] p-4">
+    <div className="flex justify-center p-4">
     <nav className="flex items-center justify-between gap-8 px-6 py-3 bg-black text-white rounded-3xl shadow-lg max-w-4xl w-full">
       <div>
         <h3 className="font-bold text-lg">ac <span className="text-[#ef5455]">.</span></h3>
