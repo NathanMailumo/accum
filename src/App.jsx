@@ -125,7 +125,7 @@ export function App() {
           </div>
           <div className="mt-10 border-t border-white/20 pt-8 text-center text-sm text-slate-300 space-mono-regular">
             Built by{" "}
-            <a href="https://github.com/" target="_blank" rel="noreferrer" className="font-bold text-white underline underline-offset-4">GitHub</a>
+            <a href="https://github.com/NathanMailumo/accum" target="_blank" rel="noreferrer" className="font-bold text-white underline underline-offset-4">GitHub</a>
           </div>
         </div>
       </footer>
