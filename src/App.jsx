@@ -34,7 +34,7 @@ export function App() {
                 blanditiis sint. Tenetur, odit.
               </span>
             </p>
-            <a href="#skills" className="rounded-2xl bg-[#2f3657] p-5 font-bold text-white space-mono-regular">
+            <a href="#skills" className="rounded-2xl bg-[#111111] p-5 font-bold text-white space-mono-regular">
               Get Started
               <span className="px-3">
                 <FontAwesomeIcon
@@ -65,12 +65,12 @@ export function App() {
               <span className="text-sm text-[#ef5455] space-mono-regular">YOUR PRACTICE</span>
               <div className="flex flex-col justify-between gap-4 py-4 sm:flex-row sm:items-center">
                 <h2 className="text-4xl redaction-70-bold">Choose a skill</h2>
-                <button className="w-fit rounded-2xl bg-[#2f3657] px-4 py-3 text-sm text-white space-mono-regular">
+                <button className="w-fit rounded-2xl bg-[#111111] px-4 py-3 text-sm text-white space-mono-regular">
                   <FontAwesomeIcon icon={faAdd} className="text-white" /> New
                   Skill
                 </button>
               </div>
-              <input type="text" placeholder="Search your skills..." className="w-full rounded-xl border border-slate-200 bg-[#faf9f6] p-4 text-sm outline-none focus:border-[#2f3657] space-mono-regular" />
+              <input type="text" placeholder="Search your skills..." className="w-full rounded-xl border border-slate-200 bg-[#faf9f6] p-4 text-sm outline-none focus:border-[#111111] space-mono-regular" />
               <div className="mt-3 divide-y divide-slate-100">
                 {skills.map((skill) => (
                   <article key={skill.name} className="flex items-center gap-4 rounded-xl p-4 transition hover:bg-slate-50">
@@ -93,13 +93,13 @@ export function App() {
         </section>
 
         <section id="insights" className="relative z-10 px-4 py-16 sm:px-12 lg:px-20">
-          <div className="mx-auto max-w-6xl rounded-3xl bg-[#2f3657] p-6 text-white sm:p-10">
+          <div className="mx-auto max-w-6xl rounded-3xl bg-[#111111] p-6 text-white sm:p-10">
             <div className="flex flex-col items-start justify-between gap-8 md:flex-row">
               <div>
                 <span className="text-xs uppercase tracking-widest text-slate-300 space-mono-regular">INSIGHTS</span>
                 <h2 className="mt-3 max-w-sm text-4xl leading-none redaction-70-bold">Consistency is your superpower.</h2>
                 <p className="mt-5 max-w-md text-sm leading-6 text-slate-300">Your practice is trending up. Keep your current rhythm and you’ll log another 50 hours in less than four weeks.</p>
-                <button className="mt-6 rounded-xl bg-white px-4 py-3 text-xs font-bold text-[#2f3657] space-mono-regular">Start a session <FontAwesomeIcon icon={faArrowRight} className="ml-2" /></button>
+                <button className="mt-6 rounded-xl bg-white px-4 py-3 text-xs font-bold text-[#111111] space-mono-regular">Start a session <FontAwesomeIcon icon={faArrowRight} className="ml-2" /></button>
               </div>
               <div className="grid w-full max-w-lg grid-cols-2 gap-3">
                 <div className="rounded-xl bg-white/10 p-5"><span className="text-xs text-slate-300">Current streak</span><strong className="mt-3 block text-4xl redaction-70-bold">08</strong><small className="text-xs text-slate-300">days in a row</small></div>
@@ -110,7 +110,7 @@ export function App() {
           </div>
         </section>
       </main>
-      <footer className="bg-[#2f3657] px-6 py-12 text-white sm:px-12">
+      <footer className="bg-[#111111] px-6 py-12 text-white sm:px-12">
         <div className="mx-auto max-w-6xl">
           <div className="flex flex-col justify-between gap-8 md:flex-row md:items-center">
             <div>

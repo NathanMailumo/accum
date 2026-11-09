@@ -1,7 +1,7 @@
-// import { Navbar } from "./Navbar";
-
-// export function Skills() {
+// export function Skills(){
 //     return(
-//         // <Navbar/>
+//         <div>
+
+//         </div>
 //     );
 // }
