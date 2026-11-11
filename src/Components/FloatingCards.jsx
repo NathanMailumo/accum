@@ -1,7 +1,7 @@
 const cards = [
   {
     className:
-      "left-4 top-8 rotate-[-8deg] bg-[#fff08a] text-black shadow-[8px_10px_0_#111] sm:left-10 sm:top-12",
+      "left-4 top-8 rotate-[-8deg] bg-[#fff08a] text-black shadow-[8px_10px_0_#111] sm:left-10 sm:top-12 space-mono-regular",
     title: "Today's focus",
     content: "Make time for what matters.",
     label: "Focus note",
@@ -9,7 +9,7 @@ const cards = [
   },
   {
     className:
-      "right-4 top-14 rotate-[7deg] rounded-[2rem] bg-[#ef5455] text-white shadow-[0_12px_30px_#ef545566] sm:right-12 sm:top-20",
+      "right-4 top-14 rotate-[7deg] rounded-[2rem] bg-[#ef5455] text-white shadow-[0_12px_30px_#ef545566] sm:right-12 sm:top-20 space-mono-regular",
     title: "7 day streak",
     content: "Consistency compounds.",
     label: "Progress",
@@ -17,7 +17,7 @@ const cards = [
   },
   {
     className:
-      "bottom-12 left-2 rotate-[6deg] bg-black text-white shadow-[0_0_0_1px_#ef5455,8px_8px_0_#ef5455] sm:bottom-16 sm:left-14",
+      "bottom-12 left-2 rotate-[6deg] bg-black text-white shadow-[0_0_0_1px_#ef5455,8px_8px_0_#ef5455] sm:bottom-16 sm:left-14 space-mono-regular",
     title: "Time tracked",
     content: "04h 32m",
     label: "Today",
@@ -25,7 +25,7 @@ const cards = [
   },
   {
     className:
-      "bottom-8 right-2 rotate-[-6deg] border-2 border-dashed border-black bg-[#f1eee8] text-black shadow-none sm:bottom-12 sm:right-14",
+      "bottom-8 right-2 rotate-[-6deg] border-2 border-dashed border-black bg-[#f1eee8] text-black shadow-none sm:bottom-12 sm:right-14 space-mono-regular",
     title: "Next milestone",
     content: "Complete your portfolio.",
     label: "Up next",

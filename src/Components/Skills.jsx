@@ -1,7 +1,13 @@
-import { App } from "../App";
 import { useState } from "react";
+import { Timer } from "./Timer";
 
-export function Skills({ isOpen, onClose, isModalOpen }) {
+export function Skills({ isOpen, onClose }) {
+  const [isTimerModalOpen, setIsTimerModalOpen] = useState(false);
+
+  function openTimerModal() {
+    setIsTimerModalOpen(true);
+  }
+
   const [skillName, setSkillName] = useState("");
   const [selectedMins, setSelectedMins] = useState(45);
 
@@ -36,9 +42,7 @@ export function Skills({ isOpen, onClose, isModalOpen }) {
             />
           </div>
 
-          {/* Circular Dial Timer Component */}
           <div className="relative w-64 h-64 flex items-center justify-center my-2">
-            {/* Tick Marks Ring */}
             <div className="absolute inset-0 flex items-center justify-center">
               {Array.from({ length: totalTicks }).map((_, index) => {
                 const angle = (index / totalTicks) * 360;
@@ -105,19 +109,21 @@ export function Skills({ isOpen, onClose, isModalOpen }) {
             />
           </div>
 
-          {/* Action Button */}
           <button
-            onClick={() => {
-              /* Add timer start trigger logic here */
-              onClose();
-            }}
+            onClick={openTimerModal}
             className="w-full bg-white text-black hover:bg-gray-200 transition-colors py-3.5 rounded-2xl font-semibold text-sm shadow-md space-mono-regular"
           >
             Start Counting
           </button>
         </div>
       </div>
-      <App isOpen={isModalOpen} onClose={onClose} />
+      <Timer
+        isOpen={isTimerModalOpen}
+        openTimerModal={openTimerModal}
+        onClose={() => setIsTimerModalOpen(false)}
+        selectedMins={selectedMins}
+        skillName={skillName}
+      />
     </>
   );
 }
